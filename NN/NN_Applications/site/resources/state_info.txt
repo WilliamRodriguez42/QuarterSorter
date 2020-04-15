@@ -1,0 +1,5 @@
+California	1
+Connecticut	1
+Georgia	2
+Minnesota	1
+Wisconsin	1

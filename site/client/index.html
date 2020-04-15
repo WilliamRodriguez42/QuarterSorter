@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Stats</title>
+
+	<link rel="stylesheet" type="text/css" href="style/Chart.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<script src="js/Chart.min.js"></script>
+</head>
+<body>
+
+	<h1><center>Quarter Sorter Stats</center></h1>
+
+	<canvas id="myChart"></canvas>
+	
+	<camera>
+		<div class="inner">
+			<h1 class="header">Top Camera</h1>
+			<img src="/video_feed?camera_name=Top"  style="width:100%">	
+		</div>
+	</camera>
+	<camera>
+		<div class="inner">
+			<h1 class="header">Bottom Camera</h1>
+			<img src="/video_feed?camera_name=Bottom"  style="width:100%">	
+		</div>
+	</camera>
+
+	<h1 class="header">
+		Stepper Motor Controls
+	</h1>
+	<center>
+		<button>Move Quarter Up One Step</button>
+		<button>Move Quarter Down One Step</button>	
+	</center>
+	
+	<script src="js/TestChart.js"></script>
+	
+
+</body>
+</html>
